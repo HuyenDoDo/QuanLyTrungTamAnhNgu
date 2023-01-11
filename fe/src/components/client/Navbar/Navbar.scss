@@ -1,0 +1,29 @@
+.navbar {
+  width: 100%;
+  background: #1f3e99;
+  .nav-link {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+  }
+
+  .dropdown-menu {
+    .dropdown-item {
+      color: #1f3e99;
+      font-weight: bold;
+    }
+  }
+
+  ul li .nav-link:hover {
+    border-bottom: 2px solid white;
+  }
+  .active {
+    border-bottom: 2px solid white;
+  }
+}
+
+.navbar-logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}

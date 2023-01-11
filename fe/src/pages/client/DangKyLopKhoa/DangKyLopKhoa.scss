@@ -1,0 +1,63 @@
+.dang-ky-lop-khoa {
+  .container-fluid {
+    padding: 0 50px;
+  }
+  .top {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .content {
+    .container-fluid {
+      .row {
+        padding: 0 20px;
+        .wrapper {
+          padding: 40px 20px;
+          .container {
+            .slider {
+              .khoahoc-card {
+                cursor: pointer;
+                color: #1f3e99;
+                &.selected {
+                  box-shadow: #1f3e99 0px 5px 15px;
+                  .card-body {
+                    .card-title {
+                      font-weight: 600;
+                    }
+                  }
+                }
+              }
+
+              .slick-slider {
+                .slick-arrow {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  height: 30px;
+                  width: 36px;
+                }
+
+                .slick-prev {
+                  left: -35px;
+                }
+                .slick-next {
+                  right: -35px;
+                }
+
+                .slick-prev::before,
+                .slick-next::before {
+                  color: #1f3e99;
+                  font-size: 35px;
+                }
+              }
+            }
+            .table-selected {
+              .total {
+                font-weight: 600;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

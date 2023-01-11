@@ -1,0 +1,50 @@
+.khoahoc-gallery {
+  padding: 80px 0;
+  // background-color: whitesmoke;
+
+  .slick-slider {
+    .slick-arrow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 30px;
+      width: 36px;
+    }
+
+    .slick-prev {
+      left: -35px;
+    }
+    .slick-next {
+      right: -35px;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+      color: #1f3e99;
+      font-size: 35px;
+    }
+  }
+
+  .container {
+    .title {
+      font-weight: 600;
+      color: #1f3e99;
+    }
+    .khoahoc-container {
+      .khoahoc-card {
+        cursor: pointer;
+        color: #1f3e99;
+        &.selected {
+          box-shadow: #1f3e99 0px 5px 15px;
+          .card-body {
+            .card-title {
+              font-weight: 600;
+            }
+          }
+        }
+      }
+    }
+    // .lopkhoa-container {
+    // }
+  }
+}
